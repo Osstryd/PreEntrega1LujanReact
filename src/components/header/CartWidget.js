@@ -1,4 +1,4 @@
-import cart from "./assets/cart.svg";
+import cartSvg from "../../img/cart.svg";
 
 const CartWidget = ({ itemCount }) => {
   return (
@@ -6,7 +6,7 @@ const CartWidget = ({ itemCount }) => {
       style={{ display: "flex", alignItems: "center", position: "relative" }}
     >
       <img
-        src={cart}
+        src={cartSvg}
         alt="Cart-widget"
         style={{
           width: "40px",
